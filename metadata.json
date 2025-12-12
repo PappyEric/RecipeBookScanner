@@ -1,0 +1,7 @@
+{
+  "name": "Heirloom Recipe Digitizer",
+  "description": "Digitize, parse, and store family recipes from physical books using AI. Features structured data export compatible with recipe managers.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
