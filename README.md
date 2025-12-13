@@ -31,12 +31,11 @@ AI isn't perfect, but it's fast.
 - Add "Batch Tags" (like "Church Cookbook 1985") to organize entire collections at once.
 - Discard duplicates or irrelevant detected text.
 
-### 4. The "Mealie" Export
-This is the superpower. 
+### 4. Export
 - Once you've digitized a batch of recipes, click **"Export Zip"**.
-- Heirloom generates a standard **Nextcloud Cookbook compatible ZIP** file.
+- Heirloom generates a standard **Nextcloud/Mealie Cookbook compatible ZIP** file.
 - This ZIP contains folder structures with `recipe.json` and high-quality `full.jpg` images for every recipe.
-- **Import to Mealie**: Go to Mealie > Settings > Migration > Nextcloud Cookbook and drop your ZIP file there. 
+- **Import to Mealie**: Go to Mealie > User Settings > Data Migration > Choose Migration Type > Nextcloud Cookbook and drop your ZIP file there. Submit.
 - *Voila!* Your entire vintage cookbook is now searchable, tagged, and backed up in your self-hosted instance.
 
 ## Technical Stack
