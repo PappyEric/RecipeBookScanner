@@ -8,25 +8,21 @@ It bridges the analog world of grandma's handwritten recipe cards and vintage co
 <img width="800" alt="Heirloom Cookbooks Banner" src="./banner.png" />
 </div>
 
-## How It Works
+I have a version [here](https://heirloom-recipe-digitizer-791910551214.us-west1.run.app/) you're more than welcome to try it out. It is using my API key so please just test things out. I use this alot on my phone to digitize recipes and it works great. I'm interested in how the community uses it. Please let me know if you have any issues or suggestions.
 
-This application is designed for a specific workflow: high-quality bulk digitization.
-
-### 1. Capture Your Memories
+### 1. Take pics or your reipe cards and cookbooks
 Start by digitizing your physical media.
 - **Recipe Cards**: Use your phone or a scanner to take clear pictures of handwritten cards.
 - **Vintage Books**: For best results with old cookbooks, use a **flatbed scanner**. This ensures high resolution and flat pages, which improves AI accuracy.
 - **Multiple Recipes**: If a single page has 3 different recipes on it, that's fine! Heirloom can detect multiple recipes on a single page.
 
 ### 2. AI-Powered Parsing
-Upload your images to Heirloom. 
 - The app uses **Google Gemini AI** to "read" the image.
 - It identifies the **Title** (keeping exact original naming).
 - It extracts **Ingredients**, **Instructions**, and **Prep Metadata**.
 - It even intelligently crops the image to finding just the section of the page relevant to each recipe.
 
 ### 3. Review and Curate
-AI isn't perfect, but it's fast. 
 - Review the extracted text in the dashboard.
 - Add "Batch Tags" (like "Church Cookbook 1985") to organize entire collections at once.
 - Discard duplicates or irrelevant detected text.
@@ -37,8 +33,6 @@ AI isn't perfect, but it's fast.
 - This ZIP contains folder structures with `recipe.json` and high-quality `full.jpg` images for every recipe.
 - **Import to Mealie**: Go to Mealie > User Settings > Data Migration > Choose Migration Type > Nextcloud Cookbook and drop your ZIP file there. Submit.
 - *Voila!* Your entire vintage cookbook is now searchable, tagged, and backed up in your self-hosted instance.
-
-## I have a version [here](https://heirloom-recipe-digitizer-791910551214.us-west1.run.app/) you're more than welcome to try it out. It is using my API key so please just test things out. I use this alot on my phone to digitize recipes and it works great. I'm interested in how the community uses it. Please let me know if you have any issues or suggestions.
 
 ## Technical Stack
 - **Frontend**: React 19 + Vite (Fast, modern UI)
