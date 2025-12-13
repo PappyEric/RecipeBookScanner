@@ -38,7 +38,7 @@ AI isn't perfect, but it's fast.
 - **Import to Mealie**: Go to Mealie > User Settings > Data Migration > Choose Migration Type > Nextcloud Cookbook and drop your ZIP file there. Submit.
 - *Voila!* Your entire vintage cookbook is now searchable, tagged, and backed up in your self-hosted instance.
 
-## I have a version [here](https://heirloom-recipe-digitizer-791910551214.us-west1.run.app/) you're more than welcome to try it out. It is using my API key, so it may be slow.
+## I have a version [here](https://heirloom-recipe-digitizer-791910551214.us-west1.run.app/) you're more than welcome to try it out. It is using my API key so please just test things out. I use this alot on my phone to digitize recipes and it works great. I'm interested in how the community uses it. Please let me know if you have any issues or suggestions.
 
 ## Technical Stack
 - **Frontend**: React 19 + Vite (Fast, modern UI)
